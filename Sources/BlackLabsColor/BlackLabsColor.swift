@@ -27,9 +27,9 @@ import UIKit
 public extension UIColor {
 
     /**
-     Creates an immuatble UIColor instance specified by a hex string, CSS color name, or nil.
+     Creates an immuatble `UIColor` instance specified by a hex string, CSS color name, or nil.
 
-     - parameter hexString: A case insensitive String? representing a hex or CSS value e.g.
+     - parameter hex: A case insensitive `String`? representing a hex or CSS value e.g.
 
      - **"abc"**
      - **"abc7"**
@@ -51,13 +51,13 @@ public extension UIColor {
     }
 
     /**
-     Returns a hex equivalent of this UIColor.
+     Returns a hex equivalent of this `UIColor`.
 
-     - Parameter includeAlpha:   Optional parameter to include the alpha hex.
+     - Parameter includeAlpha:   Optional parameter to include the alpha hex, defaults to `false`.
 
-     color.hexDescription() -> "ff0000"
+     `color.hexDescription() -> "ff0000"`
 
-     color.hexDescription(true) -> "ff0000aa"
+     `color.hexDescription(true) -> "ff0000aa"`
 
      - Returns: A new string with `String` with the color's hexidecimal value.
      */
