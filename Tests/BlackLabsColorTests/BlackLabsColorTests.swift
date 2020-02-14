@@ -3,10 +3,7 @@ import XCTest
 
 final class BlackLabsColorTests: XCTestCase {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(BlackLabsColor().text, "Hello, World!")
+        XCTAssertNotNil(UIColor.appBlack)
     }
 
     static var allTests = [
